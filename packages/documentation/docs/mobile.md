@@ -2,34 +2,22 @@
 sidebar_position: 100
 ---
 
-# Mobile apps
+# Mobile
 
-There are two main ways to develop apps for mobile devices: Mobile Web Apps and Hybrid Apps.
-Siemens Industrial Experience is a perfect fit for both approaches.
-With the help of our design system you will be able to build your mobile app's user interface swiftly.
+There are several different ways to create applications for mobile devices. Native apps are tailored for a particular platform like iOS or Android and usually need to be developed in a specific way for every target platform seperately. Other approaches like hybrid apps are based on web technologies while targeting multiple platforms using a single codebase.
 
-## Responsive Web Design (RWD): 
-When developing mobile apps there are some things to keep in mind regardless of the architecture. Taking these into account is important to achieve a great user experience on mobile devices.
+Siemens Industrial Experience can easily be utilized for creating mobile applications jointly with web technology based approaches. With the help of our design system you will be able to swiftly build the user interface of your mobile web app or hybrid app.
 
-- While our components are designed to handle various viewport sizes gracefully, it’s crucial to plan for small screens during the concept stage.
-  You may need to adjust your UI layout in response to viewport resizing.
-  Additionally, hiding certain information or entire components can be an effective way to achieve mobile responsiveness.
-- Users interact with mobile devices primarily through touch. While our Web Components are designed to respond to touch events, you may need to implement custom event listeners for touch interactions based on your specific use case.
-- Certain devices come with unique features that must be considered during development, such as the iPhone notch. Ignoring these features can result in parts of the user interface being hidden or inaccessible.
+Mobile web apps are standard web applications optimized to be used on mobile devices. For this reason, extending an application built with Siemens Industrial Experience or building a mobile web app from scratch to provide an excellent mobile experience is possible without any significant technological changes. Several paradigms and patterns including mobile-first design, responsive design, and adaptive design help developers to implement apps providing a seamless user experience across various devices and screen sizes. Disadvantages of mobile web apps include the limited possibilities for distribution (e.g. via app stores), lack of offline capabilities, as well as limited options for the integration of native features like push notifications.
 
-## Mobile Web Apps
+The aspects described above are reasons to consider hybrid applications in order to provide a sublime mobile user experience and also benefit from the advantages of native applications.
+Hybrid apps are built using web technologies but run inside a native container providing access to device APIs, allowing native features of the device's operating system and hardware to be used. A variety of frameworks for building hybrid mobile applications are available today. Some provide user interface components for a closer integration with the different operating systems designs. For a more consistent user experience it can be benefitial to favor the Siemens Industrial Experience components over the the frameworks UI components.
 
-Mobile Web Apps are standard web applications optimized for mobile devices.
-Several paradigms and patterns can aid in this optimization, including mobile-first design, responsive design, and adaptive design.
-These approaches ensure that the app provides a seamless user experience across various devices and screen sizes.
-TODO: how does iX play into this?
+To demonstrate the mobile experience with our design system we've build a hybrid example application using Ionic, React and Siemens Industrial Experience:
 
-## Hybrid Apps
+TODO
 
-Hybrid Apps are built using web technologies but run inside of a native container that gives them access to device APIs that would not be availbale to the mobile app otherwise.
-Various frameworks exist that allow you to build Hybrid Apps.
-Here you can find an example implementation that uses Ionic, React and Siemens Industrial Experience to create a themed Hybrid App.
+## User experience considerations
+Regardless of the technology there are diverse aspects to take into consideration when developing applications for mobile devices:
 
-Some frameworks rely on certain platform specific components (e.g. date picker) that make the app more inline with the OS UX.
-In certain use cases it can be an option to replace the usage of these native components with counterparts from the design system.
-This can help to provide additional functionality.
+TODO
